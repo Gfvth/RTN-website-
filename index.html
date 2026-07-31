@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>RTN CAFE | ಆರ್ಟಿಎನ್ ಕೆಫೆ — Fresh Taste. Cozy Moments. Hebbal, Bengaluru</title>
+  <meta name="description" content="RTN CAFE in Hebbal, Bengaluru — a welcoming neighbourhood café serving fresh food, great coffee, and handcrafted drinks. Visit us near Vidyanjali School, Coconut Garden, Cholanyakanhalli. Open daily 4 PM – 10:30 PM." />
+  <meta name="keywords" content="RTN Cafe, ಆರ್ಟಿಎನ್ ಕೆಫೆ, cafe Hebbal, restaurant Bengaluru, coffee shop Hebbal, food cafe Bangalore, burgers pizza momos Hebbal" />
+  <meta name="author" content="RTN CAFE" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://rtn-cafe.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RTN CAFE | Fresh Taste. Cozy Moments." />
+  <meta property="og:description" content="A welcoming neighbourhood café in Hebbal, Bengaluru. Burgers, pizza, momos, coffee, milkshakes and more. Open daily from 4 PM." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:url" content="https://rtn-cafe.github.io/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RTN CAFE | Fresh Taste. Cozy Moments." />
+  <meta name="twitter:description" content="A welcoming neighbourhood café in Hebbal, Bengaluru." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Schema.org Restaurant Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "RTN CAFE",
+    "alternateName": "ಆರ್ಟಿಎನ್ ಕೆಫೆ",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80",
+    "url": "https://rtn-cafe.github.io/",
+    "telephone": "+919900928901",
+    "priceRange": "₹₹",
+    "servesCuisine": ["Indian", "Fast Food", "Café", "Beverages"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "22",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Near Vidyanjali School, Coconut Garden, Cholanyakanhalli",
+      "addressLocality": "Hebbal",
+      "addressRegion": "Karnataka",
+      "postalCode": "560024",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 13.0476,
+      "longitude": 77.5906
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday",    "opens": "16:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday",    "opens": "16:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday",   "opens": "16:00", "closes": "23:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "16:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday",  "opens": "16:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday",    "opens": "16:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday",  "opens": "16:00", "closes": "23:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__logo">RTN</div>
+      <div class="loader__tagline">Good things take a moment</div>
+      <div class="loader__bar"><div class="loader__progress"></div></div>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919900928901" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo" aria-label="RTN CAFE – home">
+        <div class="nav__logo-badge">R</div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">RTN CAFE</span>
+          <span class="nav__logo-sub">Hebbal · Bengaluru</span>
+        </div>
+      </a>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="#about"   class="nav__link">About</a></li>
+        <li><a href="#menu"    class="nav__link">Menu</a></li>
+        <li><a href="#gallery" class="nav__link">Gallery</a></li>
+        <li><a href="#visit"   class="nav__link">Visit</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="tel:+919900928901" class="nav__cta btn btn--outline">Call to Reserve</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero" aria-labelledby="heroHeading">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80" alt="" class="hero__img" loading="eager" />
+      <div class="hero__overlay"></div>
+      <div class="hero__grain"></div>
+    </div>
+    <div class="hero__content container">
+      <div class="hero__kicker reveal-up">
+        <span class="kicker-line"></span>
+        A Neighbourhood Café · Hebbal
+      </div>
+      <h1 id="heroHeading" class="hero__title">
+        <span class="hero__title--line reveal-up" style="--delay:.1s">Fresh taste.</span>
+        <em class="hero__title--italic reveal-up" style="--delay:.2s">Cozy moments.</em>
+        <span class="hero__title--line reveal-up" style="--delay:.3s">Every visit special.</span>
+      </h1>
+      <p class="hero__sub reveal-up" style="--delay:.4s">
+        A little place near Vidyanjali School where everyday food,<br />
+        good coffee and warm hospitality make an ordinary evening feel special.
+      </p>
+      <div class="hero__cta reveal-up" style="--delay:.5s">
+        <a href="#menu" class="btn btn--gold">Explore the Menu</a>
+        <a href="tel:+919900928901" class="btn btn--ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.5 2 2 0 0 1 3.59 1.32h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6.91 6.91l.82-.82a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call Now
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll to discover</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+
+    <!-- Floating food accents -->
+    <div class="hero__float hero__float--1" aria-hidden="true">&#9749;</div>
+    <div class="hero__float hero__float--2" aria-hidden="true">&#127829;</div>
+    <div class="hero__float hero__float--3" aria-hidden="true">&#127828;</div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats" aria-label="RTN CAFE highlights">
+    <div class="container stats__grid">
+      <div class="stats__item reveal-up">
+        <span class="stats__num" data-target="5" data-suffix=".0">0</span>
+        <span class="stats__label">Star Rating</span>
+      </div>
+      <div class="stats__item reveal-up" style="--delay:.1s">
+        <span class="stats__num" data-target="22" data-suffix="+">0</span>
+        <span class="stats__label">Happy Customers</span>
+      </div>
+      <div class="stats__item reveal-up" style="--delay:.2s">
+        <span class="stats__num" data-target="50" data-suffix="+">0</span>
+        <span class="stats__label">Menu Items</span>
+      </div>
+      <div class="stats__item reveal-up" style="--delay:.3s">
+        <span class="stats__num" data-target="7" data-suffix="">0</span>
+        <span class="stats__label">Days a Week</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about" aria-labelledby="aboutHeading">
+    <div class="container about__grid">
+      <div class="about__visual reveal-left">
+        <div class="about__img-frame">
+          <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80" alt="RTN CAFE interior — warm lighting and comfortable seating" loading="lazy" class="about__img" />
+          <div class="about__img-badge">
+            <span class="about__img-badge-num">5.0</span>
+            <span class="about__img-badge-label">Stars</span>
+          </div>
+        </div>
+        <div class="about__img-accent" aria-hidden="true"></div>
+      </div>
+      <div class="about__text reveal-right">
+        <p class="section__eyebrow">Our Story</p>
+        <h2 id="aboutHeading" class="section__heading">A place where every<br /><em>guest feels at home</em></h2>
+        <p class="about__para">
+          RTN CAFE was born from a simple belief — that great food and genuine warmth should be available right in your neighbourhood. Nestled near Vidyanjali School in Coconut Garden, Hebbal, we set out to create a space where locals could unwind, connect, and savour something truly delicious.
+        </p>
+        <p class="about__para">
+          From our crispy burgers and hand-rolled momos to our handcrafted coffees and fresh-squeezed juices, every item on our menu is prepared with quality ingredients and honest care. We believe the best meals are the ones shared in good company — and that is exactly what we strive to offer, every single evening.
+        </p>
+        <div class="about__tags">
+          <span class="tag">Fresh Ingredients</span>
+          <span class="tag">Hygienic Kitchen</span>
+          <span class="tag">Friendly Service</span>
+        </div>
+        <a href="tel:+919900928901" class="btn btn--gold mt-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.5 2 2 0 0 1 3.59 1.32h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6.91 6.91l.82-.82a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          +91 99009 28901
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="reasons section" id="reasons" aria-labelledby="reasonsHeading">
+    <div class="container">
+      <div class="section__header text-center reveal-up">
+        <p class="section__eyebrow">Why RTN CAFE</p>
+        <h2 id="reasonsHeading" class="section__heading">Crafted for every visit</h2>
+      </div>
+      <div class="reasons__grid">
+        <article class="reason-card reveal-up" style="--delay:.05s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3 class="reason-card__title">Fresh Ingredients</h3>
+          <p class="reason-card__desc">We source fresh, quality ingredients daily to ensure every bite tastes its best.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.1s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="reason-card__title">Hygienic Kitchen</h3>
+          <p class="reason-card__desc">Our kitchen is cleaned and sanitised before every service so you can eat with confidence.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.15s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3 class="reason-card__title">Friendly Staff</h3>
+          <p class="reason-card__desc">Our team greets every guest with a warm smile and attentive, personalised service.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.2s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <h3 class="reason-card__title">Affordable Prices</h3>
+          <p class="reason-card__desc">Premium quality at honest prices — so you can visit as often as you like without worry.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.25s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="reason-card__title">Great Taste</h3>
+          <p class="reason-card__desc">Every recipe has been tasted and refined until it earns its place on our menu — nothing less.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.3s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+          <h3 class="reason-card__title">Comfortable Ambience</h3>
+          <p class="reason-card__desc">Warm lighting, cosy corners and a relaxed atmosphere — the perfect place to unwind.</p>
+        </article>
+        <article class="reason-card reveal-up" style="--delay:.35s">
+          <div class="reason-card__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+          </div>
+          <h3 class="reason-card__title">Fast Service</h3>
+          <p class="reason-card__desc">We respect your time. Expect your order delivered promptly without cutting corners.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Menu -->
+  <section class="menu section" id="menu" aria-labelledby="menuHeading">
+    <div class="container">
+      <div class="section__header text-center reveal-up">
+        <p class="section__eyebrow">What we serve</p>
+        <h2 id="menuHeading" class="section__heading">Our featured <em>menu</em></h2>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="menu__filters" role="tablist" aria-label="Menu categories">
+        <button class="menu__filter active" data-filter="all"       role="tab" aria-selected="true">All</button>
+        <button class="menu__filter"         data-filter="mains"    role="tab" aria-selected="false">Mains</button>
+        <button class="menu__filter"         data-filter="snacks"   role="tab" aria-selected="false">Snacks</button>
+        <button class="menu__filter"         data-filter="coffee"   role="tab" aria-selected="false">Coffee</button>
+        <button class="menu__filter"         data-filter="drinks"   role="tab" aria-selected="false">Drinks</button>
+        <button class="menu__filter"         data-filter="desserts" role="tab" aria-selected="false">Desserts</button>
+      </div>
+
+      <div class="menu__grid" id="menuGrid">
+        <!-- Mains -->
+        <article class="menu-card" data-cat="mains">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="Classic Smash Burger with lettuce, tomato and cheese" loading="lazy" class="menu-card__img" />
+            <span class="menu-card__badge">Popular</span>
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Classic Smash Burger</h3>
+              <span class="menu-card__price">&#8377;159</span>
+            </div>
+            <p class="menu-card__desc">Juicy smash patty, fresh lettuce, tomato, house sauce in a toasted brioche bun.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="mains">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" alt="Margherita pizza with fresh basil and mozzarella" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Margherita Pizza</h3>
+              <span class="menu-card__price">&#8377;199</span>
+            </div>
+            <p class="menu-card__desc">Classic stone-baked base with San Marzano tomato sauce, fresh mozzarella, and basil.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="mains">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600&q=80" alt="Grilled chicken sandwich on toasted bread" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Grilled Chicken Sandwich</h3>
+              <span class="menu-card__price">&#8377;139</span>
+            </div>
+            <p class="menu-card__desc">Tender grilled chicken, caramelised onions, chipotle mayo on toasted sourdough.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="mains">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80" alt="Steamed momos served with spicy chutney" loading="lazy" class="menu-card__img" />
+            <span class="menu-card__badge">Best Seller</span>
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Steamed Momos (6 pcs)</h3>
+              <span class="menu-card__price">&#8377;109</span>
+            </div>
+            <p class="menu-card__desc">Hand-wrapped dumplings with a savoury vegetable filling, served with fiery chutney.</p>
+          </div>
+        </article>
+        <!-- Snacks -->
+        <article class="menu-card" data-cat="snacks">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=600&q=80" alt="Crispy loaded fries with cheese sauce" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Loaded Masala Fries</h3>
+              <span class="menu-card__price">&#8377;99</span>
+            </div>
+            <p class="menu-card__desc">Crispy fries tossed in house masala, topped with cheese sauce and spring onions.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="snacks">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&q=80" alt="Spicy paneer roll wrapped in a flatbread" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Paneer Tikka Roll</h3>
+              <span class="menu-card__price">&#8377;119</span>
+            </div>
+            <p class="menu-card__desc">Charred paneer tikka, mint chutney, onions and peppers rolled in a soft paratha.</p>
+          </div>
+        </article>
+        <!-- Coffee -->
+        <article class="menu-card" data-cat="coffee">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" alt="Latte art cappuccino in a ceramic cup" loading="lazy" class="menu-card__img" />
+            <span class="menu-card__badge">Staff Pick</span>
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Signature Cappuccino</h3>
+              <span class="menu-card__price">&#8377;89</span>
+            </div>
+            <p class="menu-card__desc">Double-shot espresso with velvety micro-foam and a rosetta pour.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="coffee">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80" alt="Cold brew coffee over ice in a tall glass" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Cold Brew Coffee</h3>
+              <span class="menu-card__price">&#8377;99</span>
+            </div>
+            <p class="menu-card__desc">18-hour slow-steeped cold brew over ice — smooth, naturally sweet, and deeply refreshing.</p>
+          </div>
+        </article>
+        <!-- Drinks -->
+        <article class="menu-card" data-cat="drinks">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1570696516188-ade861b84a49?w=600&q=80" alt="Thick chocolate milkshake in a tall glass" loading="lazy" class="menu-card__img" />
+            <span class="menu-card__badge">Popular</span>
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Dark Choco Milkshake</h3>
+              <span class="menu-card__price">&#8377;129</span>
+            </div>
+            <p class="menu-card__desc">Rich, thick Belgian chocolate milkshake topped with whipped cream and chocolate shavings.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="drinks">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80" alt="Fresh orange juice in a glass" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Fresh Orange Juice</h3>
+              <span class="menu-card__price">&#8377;79</span>
+            </div>
+            <p class="menu-card__desc">Freshly squeezed oranges — no sugar, no preservatives, just pure sunshine in a glass.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-cat="drinks">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Blue lagoon mocktail with mint garnish" loading="lazy" class="menu-card__img" />
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Blue Lagoon Mocktail</h3>
+              <span class="menu-card__price">&#8377;109</span>
+            </div>
+            <p class="menu-card__desc">Blue curacao-flavoured soda, lemonade, ice and a burst of fresh mint. Refreshing and striking.</p>
+          </div>
+        </article>
+        <!-- Desserts -->
+        <article class="menu-card" data-cat="desserts">
+          <div class="menu-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" alt="Warm Belgian waffle with ice cream and berries" loading="lazy" class="menu-card__img" />
+            <span class="menu-card__badge">New</span>
+          </div>
+          <div class="menu-card__body">
+            <div class="menu-card__top">
+              <h3 class="menu-card__name">Belgian Waffle Sundae</h3>
+              <span class="menu-card__price">&#8377;149</span>
+            </div>
+            <p class="menu-card__desc">Warm crispy waffle, two scoops of vanilla ice cream, chocolate drizzle and fresh berries.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section" id="gallery" aria-labelledby="galleryHeading">
+    <div class="container">
+      <div class="section__header text-center reveal-up">
+        <p class="section__eyebrow">Take a look</p>
+        <h2 id="galleryHeading" class="section__heading">Inside RTN <em>CAFE</em></h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--tall reveal-up" style="--delay:.05s">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="RTN CAFE dining area — warm amber lighting and cosy seating" loading="lazy" />
+          <div class="gallery__hover"><span>Dining Area</span></div>
+        </div>
+        <div class="gallery__item reveal-up" style="--delay:.1s">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Barista pouring latte art at RTN CAFE" loading="lazy" />
+          <div class="gallery__hover"><span>Latte Art</span></div>
+        </div>
+        <div class="gallery__item reveal-up" style="--delay:.15s">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80" alt="Fresh momos served at RTN CAFE" loading="lazy" />
+          <div class="gallery__hover"><span>Momos</span></div>
+        </div>
+        <div class="gallery__item gallery__item--wide reveal-up" style="--delay:.2s">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&q=80" alt="RTN CAFE kitchen — fresh food being prepared" loading="lazy" />
+          <div class="gallery__hover"><span>Our Kitchen</span></div>
+        </div>
+        <div class="gallery__item reveal-up" style="--delay:.25s">
+          <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80" alt="Paneer roll plated beautifully at RTN CAFE" loading="lazy" />
+          <div class="gallery__hover"><span>Paneer Roll</span></div>
+        </div>
+        <div class="gallery__item gallery__item--tall reveal-up" style="--delay:.3s">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80" alt="Cappuccino with perfect latte art" loading="lazy" />
+          <div class="gallery__hover"><span>Cappuccino</span></div>
+        </div>
+        <div class="gallery__item reveal-up" style="--delay:.35s">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80" alt="Smash burger served at RTN CAFE" loading="lazy" />
+          <div class="gallery__hover"><span>Smash Burger</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews section" id="reviews" aria-labelledby="reviewsHeading">
+    <div class="reviews__bg" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1600&q=80" alt="" loading="lazy" />
+      <div class="reviews__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="section__header text-center reveal-up">
+        <p class="section__eyebrow">What guests say</p>
+        <h2 id="reviewsHeading" class="section__heading">5.0 Stars &mdash; <em>22 Reviews</em></h2>
+        <div class="reviews__stars" aria-label="5 out of 5 stars">
+          &#9733;&#9733;&#9733;&#9733;&#9733;
+        </div>
+      </div>
+      <div class="reviews__grid">
+        <article class="review-card reveal-up" style="--delay:.05s">
+          <div class="review-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote class="review-card__text">"Honestly one of the best cafes in Hebbal. The smash burger is insanely good and the cold brew is exactly what you need after a long day."</blockquote>
+          <footer class="review-card__author">
+            <div class="review-card__avatar" aria-hidden="true">A</div>
+            <div>
+              <strong class="review-card__name">Aditya K.</strong>
+              <span class="review-card__date">Google Review</span>
+            </div>
+          </footer>
+        </article>
+        <article class="review-card reveal-up" style="--delay:.1s">
+          <div class="review-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote class="review-card__text">"Came here with my friends and we were all so impressed. The momos are absolutely delicious and the staff is genuinely warm and helpful. Will definitely return!"</blockquote>
+          <footer class="review-card__author">
+            <div class="review-card__avatar" aria-hidden="true">P</div>
+            <div>
+              <strong class="review-card__name">Priya S.</strong>
+              <span class="review-card__date">Google Review</span>
+            </div>
+          </footer>
+        </article>
+        <article class="review-card reveal-up" style="--delay:.15s">
+          <div class="review-card__stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote class="review-card__text">"Amazing ambience, very affordable prices, and the food is consistent every single visit. The Belgian waffle sundae is a must-try. A hidden gem in Coconut Garden!"</blockquote>
+          <footer class="review-card__author">
+            <div class="review-card__avatar" aria-hidden="true">R</div>
+            <div>
+              <strong class="review-card__name">Rahul M.</strong>
+              <span class="review-card__date">Google Review</span>
+            </div>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opening Hours + Location -->
+  <section class="visit section" id="visit" aria-labelledby="visitHeading">
+    <div class="container visit__grid">
+      <!-- Hours -->
+      <div class="hours reveal-left">
+        <p class="section__eyebrow">We're open</p>
+        <h2 id="visitHeading" class="section__heading">Opening <em>Hours</em></h2>
+        <ul class="hours__list" id="hoursList" role="list" aria-label="Opening hours">
+          <li class="hours__item" data-day="0"><span class="hours__day">Sunday</span>    <span class="hours__time">4:00 PM – 10:30 PM</span></li>
+          <li class="hours__item" data-day="1"><span class="hours__day">Monday</span>    <span class="hours__time">4:00 PM – 10:30 PM</span></li>
+          <li class="hours__item" data-day="2"><span class="hours__day">Tuesday</span>   <span class="hours__time">4:00 PM – 11:30 PM</span></li>
+          <li class="hours__item" data-day="3"><span class="hours__day">Wednesday</span> <span class="hours__time">4:00 PM – 10:30 PM</span></li>
+          <li class="hours__item" data-day="4"><span class="hours__day">Thursday</span>  <span class="hours__time">4:00 PM – 10:30 PM</span></li>
+          <li class="hours__item" data-day="5"><span class="hours__day">Friday</span>    <span class="hours__time">4:00 PM – 10:30 PM</span></li>
+          <li class="hours__item" data-day="6"><span class="hours__day">Saturday</span>  <span class="hours__time">4:00 PM – 11:00 PM</span></li>
+        </ul>
+        <p class="hours__note" id="openStatus"></p>
+      </div>
+
+      <!-- Location -->
+      <div class="location reveal-right">
+        <p class="section__eyebrow">Find us</p>
+        <h2 class="section__heading">Visit <em>Us</em></h2>
+        <div class="location__map" role="region" aria-label="Map of RTN CAFE location">
+          <iframe
+            title="RTN CAFE location map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1!2d77.5906!3d13.0476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzUxLjQiTiA3N8KwMzUnMjYuMiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            width="100%"
+            height="260"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <address class="location__address">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Near Vidyanjali School, Coconut Garden,<br />
+          Cholanyakanhalli, Hebbal,<br />
+          Bengaluru, Karnataka – 560024
+        </address>
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=Hebbal+Bengaluru+Karnataka+560024"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--gold mt-2">
+          Get Directions
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact" aria-labelledby="contactHeading">
+    <div class="container contact__grid">
+      <div class="contact__info reveal-left">
+        <p class="section__eyebrow">Get in touch</p>
+        <h2 id="contactHeading" class="section__heading">We'd love to<br /><em>hear from you</em></h2>
+        <div class="contact__detail">
+          <div class="contact__detail-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.61 3.5 2 2 0 013.59 1.32h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9a16 16 0 006.91 6.91l.82-.82a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+919900928901" class="contact__link">+91 99009 28901</a>
+          </div>
+        </div>
+        <div class="contact__detail">
+          <div class="contact__detail-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <strong>Address</strong>
+            <address style="font-style:normal;">Near Vidyanjali School, Coconut Garden,<br />Cholanyakanhalli, Hebbal, Bengaluru – 560024</address>
+          </div>
+        </div>
+        <div class="contact__detail">
+          <div class="contact__detail-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <strong>Hours</strong>
+            <span>Daily 4:00 PM – 10:30 PM<br />(Tue: till 11:30 PM · Sat: till 11:00 PM)</span>
+          </div>
+        </div>
+        <a href="tel:+919900928901" class="btn btn--gold mt-3">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.61 3.5 2 2 0 013.59 1.32h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9a16 16 0 006.91 6.91l.82-.82a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Us Now
+        </a>
+      </div>
+
+      <div class="contact__form-wrap reveal-right">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+          <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden>
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>
+            <h3>Thank you!</h3>
+            <p>Your message has been sent. We'll get back to you shortly.</p>
+          </div>
+          <div id="formFields">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="fname" name="name" class="form-input" placeholder="Your name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="fphone" class="form-label">Phone</label>
+                <input type="tel" id="fphone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="femail" class="form-label">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="femail" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="fsubject" class="form-label">Subject</label>
+              <input type="text" id="fsubject" name="subject" class="form-input" placeholder="Reservation, feedback…" />
+            </div>
+            <div class="form-group">
+              <label for="fmessage" class="form-label">Message <span aria-hidden="true">*</span></label>
+              <textarea id="fmessage" name="message" class="form-input form-textarea" placeholder="Tell us how we can help…" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--gold btn--full">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__top container">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="nav__logo-badge">R</div>
+          <div>
+            <span class="footer__logo-name">RTN CAFE</span>
+            <span class="footer__logo-sub">ಆರ್ಟಿಎನ್ ಕೆಫೆ</span>
+          </div>
+        </div>
+        <p class="footer__tagline">Fresh Taste. Cozy Moments. Every Visit Special.</p>
+        <div class="footer__social" aria-label="Social media links">
+          <a href="#" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/919900928901" class="footer__social-link" aria-label="WhatsApp" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h3 class="footer__heading">Quick Links</h3>
+        <ul role="list">
+          <li><a href="#about"   class="footer__link">About Us</a></li>
+          <li><a href="#menu"    class="footer__link">Menu</a></li>
+          <li><a href="#gallery" class="footer__link">Gallery</a></li>
+          <li><a href="#reviews" class="footer__link">Reviews</a></li>
+          <li><a href="#visit"   class="footer__link">Hours & Location</a></li>
+          <li><a href="#contact" class="footer__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__contact">
+        <h3 class="footer__heading">Contact</h3>
+        <address>
+          <p>Near Vidyanjali School,<br />Coconut Garden, Cholanyakanhalli,<br />Hebbal, Bengaluru – 560024</p>
+          <a href="tel:+919900928901" class="footer__link">+91 99009 28901</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bottom container">
+      <p class="footer__copy">&copy; <span id="year"></span> RTN CAFE. All rights reserved.</p>
+      <p class="footer__credit">Crafted with care in Bengaluru</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/menu.js" defer></script>
+</body>
+</html>
